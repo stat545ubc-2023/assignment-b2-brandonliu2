@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of countAllMissing is to ...
+The goal of Package countAllMissing is to count the number of missing items in each column. Given a data frame and a column to group by, this function creates a new data frame with one row per level of the grouping column. The output contains the levels of the grouping column, and the count of missing values for all columns in the input data except the grouping column.
 
 ## Installation
 
