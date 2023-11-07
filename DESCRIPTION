@@ -1,11 +1,15 @@
-Package: count_all_missing
-Title: count_all_missing_by_group
+Package: countAllMissing
+Type: Package
+Title: count all missing by group
 Version: 1.0.0
-Authors@R: person("Chang Liu", email = "cliu97@student.ubc.ca", role = c("aut", "cre"))
-Maintainer: person("Chang Liu", email = "cliu97@student.ubc.ca")
+Authors@R: person("Chang", "Liu", , email = "cliu97@student.ubc.ca", role = c("aut", "cre"))
 Description: This package provides a function to count missing values by group.
-Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
-Imports: dplyr
-RoxygenNote: 7.2.3
 Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    rlang
+Depends: R (>= 3.5.0)
+

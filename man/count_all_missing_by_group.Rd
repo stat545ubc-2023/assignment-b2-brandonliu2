@@ -11,7 +11,7 @@ count_all_missing_by_group(data, group_col, .groups = "drop")
 
 \item{group_col}{Column in the data to group by.}
 
-\item{.groups}{(OPTIONAL) Controls the output data frame's grouping behavior. By default, it drops all levels of grouping ("drop"). Use "keep" to maintain grouping by the specified column. See the `summarize()` documentation in `dplyr` for additional options.}
+\item{.groups}{(OPTIONAL) Controls the output data frame's grouping behavior. By default, it drops all levels of grouping ("drop"). Use "keep" to maintain grouping by the specified column. See the \code{summarize()} documentation in \code{dplyr} for additional options.}
 }
 \value{
 A data frame or tibble with the levels of the grouping column and the count of NAs within each level for all columns in the input data except the grouping column.
@@ -20,5 +20,5 @@ A data frame or tibble with the levels of the grouping column and the count of N
 Given a data frame and a column to group by, this function creates a new data frame with one row per level of the grouping column. The output contains the levels of the grouping column, and the count of missing values for all columns in the input data except the grouping column.
 }
 \details{
-This function uses `group_by()` and `summarize()` from the `dplyr` package to calculate the count of missing values for each group.
+This function uses \code{group_by()} and \code{summarize()} from the \code{dplyr} package to calculate the count of missing values for each group.
 }

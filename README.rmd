@@ -13,18 +13,18 @@ knitr::opts_chunk$set(
 )
 ```
 
-# count_all_missing
+# countAllMissing
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of count_all_missing is to ...
+The goal of countAllMissing is to ...
 
 ## Installation
 
-You can install the development version of count_all_missing from [GitHub](https://github.com/stat545ubc-2023/assignment-b2-brandonliu2) with:
+You can install the development version of countAllMissing from [GitHub](https://github.com/stat545ubc-2023/assignment-b2-brandonliu2) with:
 
-```{r}
+``` r
 # install.packages("devtools")
 devtools::install_github("stat545ubc-2023/assignment-b2-brandonliu2")
 ```
@@ -34,7 +34,7 @@ devtools::install_github("stat545ubc-2023/assignment-b2-brandonliu2")
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-library(count_all_missing)
+library(countAllMissing)
 
 data <- data.frame(
   group = c("A", "A", "B", "B"),
@@ -42,4 +42,5 @@ data <- data.frame(
 )
 count_all_missing_by_group(data, group_col = "group")
 
+## basic example code
 ```
