@@ -1,7 +1,7 @@
 Package: countAllMissing
 Type: Package
 Title: count all missing by group
-Version: 1.0.0
+Version: 0.1.0
 Authors@R: person("Chang", "Liu", , email = "cliu97@student.ubc.ca", role = c("aut", "cre"))
 Description: This package provides a function to count missing values by group.
 License: MIT + file LICENSE
